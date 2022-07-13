@@ -1,0 +1,71 @@
+/* pdoc color scheme */
+:root {
+    --pdoc-background: #F3F4F6;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.pdoc {
+    --text: #111827;
+    --muted: #6c757d;
+    --link: #3660a5;
+    --link-hover: #1659c5;
+    --code: #f8f8f8;
+    --active: rgba(0,0,0,0.1);
+
+    --accent: #1E293B;
+    --accent2: #c1c1c1;
+
+    --nav-hover: rgba(0,0,0,0.2);
+    --name: #F04E4E;
+    --def: #60A5FA;
+    --annotation: #3660a5;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--name);
+}
+
+.pdoc .attr {
+    background-color: var(--active) ;
+    color: var(--text);
+}
+
+nav.pdoc footer {
+    color: var(--muted);
+}
+
+nav.pdoc a, nav.pdoc a:hover {
+    color: var(--code);
+}
+
+h1.modulename, .modulename a, .modulename a:hover {
+    color: var(--name);
+}
+
+.pdoc code {
+    background-color: var(--active);
+}
+
+.pdoc-code pre, .pdoc-code code {
+    background: var(--accent);
+    color: var(--code);
+}
+
+nav.pdoc a.module-list-button, nav.pdoc a.module-list-button:hover {
+    color: var(--code);
+    border-color: var(--accent);
+    background-color: var(--link);
+}
+
+nav.pdoc a.module-list-button:hover {
+    background-color: var(--link-hover);
+}

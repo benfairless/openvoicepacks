@@ -1,0 +1,23 @@
+# Byte-compiled
+**/__pycache__
+**.py[cod]
+**$py.class
+
+# Distribution / packaging
+dist/
+
+# Reports / testing
+.ruff_cache/
+.pytest_cache/
+.coverage
+
+# Environments
+.venv/
+.env*
+
+# Project-specific
+*.sqlite
+*.db
+**.wav
+resources/
+legacy/
