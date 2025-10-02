@@ -14,7 +14,8 @@
     --muted: #6c757d;
     --link: #3660a5;
     --link-hover: #1659c5;
-    --code: #f8f8f8;
+    /* --code: #f8f8f8; */
+    --code: #cbd5e1;
     --active: rgba(0,0,0,0.1);
 
     --accent: #1E293B;
@@ -31,7 +32,11 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: var(--name);
+    color: var(--text);
+}
+
+nav.pdoc h1, nav.pdoc h2, nav.pdoc h3, nav.pdoc h4, nav.pdoc h5, nav.pdoc h6 {
+    color: var(--muted);
 }
 
 .pdoc .attr {

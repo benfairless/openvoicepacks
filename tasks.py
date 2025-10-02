@@ -107,7 +107,10 @@ def docs(command, serve=False):
         "--mermaid",
         "--docformat google",
         "-t assets/pdoc_template",
-        "--footer-text '© 2025 OpenVoicePacks'"]
+        "--footer-text '© 2025 OpenVoicePacks'",
+        "--logo https://openvoicepacks.org/assets/logos/logo-full-coral.png",
+        "--logo-link https://openvoicepacks.org/",
+    ]
     if not serve:
         args.extend(["-o", "assets/site/docs"])
     command.run(f"pdoc {" ".join(args)} src/openvoicepacks", pty=True)

@@ -13,7 +13,7 @@ Powered by modern Text-to-Speech (TTS) engines like AWS Polly and Piper.
 Unhappy with downloading sound packs for your radio only to find they are incomplete?
 OpenVoicePacks uses self-hosted and cloud text-to-speech generation to create comprehensive voice packs to suit your needs, giving you a consistent voice pack that covers default sounds as well as any custom lines you would like to add.
 
-## ✨ Features
+## Features
 - FUTURE: Generate complete soundpacks from a simple config file.
 - Support for multiple TTS providers (More coming soon).
 - FUTURE: Output in correct OpenTX/EdgeTX SD card structure.
@@ -37,7 +37,7 @@ Support for Azure Speech Service is planned.
 - Python 3.13
 - ffmpeg
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Install
 ```bash
