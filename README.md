@@ -1,8 +1,7 @@
-OpenVoicePacks
-==========
+![image](assets/site/assets/logos/svg/horizontal-coral.svg)
 
-![GitHub](https://img.shields.io/github/license/benfairless/txsoundgen?style=flat-square)
-![GitHub release](https://img.shields.io/github/v/release/benfairless/txsoundgen?style=flat-square)
+![GitHub](https://img.shields.io/github/license/benfairless/openvoicepacks?style=flat-square)
+![GitHub release](https://img.shields.io/github/v/release/benfairless/openvoicepacks?style=flat-square)
 
 Generate and customize complete voice packs for OpenTX and EdgeTX radios.
 

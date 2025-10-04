@@ -108,7 +108,7 @@ def docs(command, serve=False):
         "--docformat google",
         "-t assets/pdoc_template",
         "--footer-text '© 2025 OpenVoicePacks'",
-        "--logo https://openvoicepacks.org/assets/logos/logo-full-coral.png",
+        "--logo https://openvoicepacks.org/assets/logos/svg/stacked-coral.svg",
         "--logo-link https://openvoicepacks.org/",
     ]
     if not serve:
